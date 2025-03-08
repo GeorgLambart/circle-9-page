@@ -1,15 +1,26 @@
 @use '@angular/material' as mat;
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 
-body {
-  background-color: #212121; 
-  color: #e0e0e0; 
+:root {
+  --color-primary: #4527A0;
+  --color-secondary: #7E57C2;
+  --color-text-white: #FFFDE7;
+  --color-alert-red: #E53935;
+  --color-bg-dark: #212121;
 }
 
-:root {
-  --mdc-filled-button-container-color: #0288d1;
-  --mat-toolbar-container-background-color: #0288d1;
-  --mdc-text-button-label-text-color: #ffffff; 
-  --mat-toolbar-container-text-color: #ffffff;
-  --mdc-filled-button-hover-state-layer-color: #26a69a;
+body {
+  background-color: var(--color-bg-dark);
+}
+
+:root{
+--mat-toolbar-container-background-color: var(--color-primary);
+--mat-toolbar-container-text-color: var(--color-text-white);
+}
+
+@font-face {
+  font-family: 'Z003';
+  src: url('/assets/fonts/Z003.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
