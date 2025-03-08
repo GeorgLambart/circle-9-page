@@ -1,0 +1,17 @@
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--color-primary);
+  color: var(--color-text-white);
+}
+p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--mdc-filled-button-hover-state-layer-color);
+}
