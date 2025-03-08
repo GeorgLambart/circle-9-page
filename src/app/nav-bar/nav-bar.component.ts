@@ -7,10 +7,8 @@ import { MatIconModule } from '@angular/material/icon';
 @Component({
   selector: 'app-nav-bar',
   standalone: true,
-  imports: [MatToolbarModule, MatButtonModule, RouterLink, MatIconModule ],
+  imports: [MatToolbarModule, MatButtonModule, RouterLink, MatIconModule],
   templateUrl: './nav-bar.component.html',
-  styleUrl: './nav-bar.component.scss'
+  styleUrl: './nav-bar.component.scss',
 })
-export class NavBarComponent {
-
-}
+export class NavBarComponent {}

@@ -1,28 +1,28 @@
 mat-toolbar {
-    display: flex;
-    gap: 1rem;
-    height: 80px;
-    align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  gap: 1rem;
+  height: 80px;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-  
+
 button[mat-button] {
-    font-size: 16px;
-    padding: 0 20px;
-    height: 40px;
-    line-height: 40px;
+  font-size: 16px;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
 }
-  
+
 span {
-    font-size: 24px;
-    font-weight: bold;
-    font-family: 'Z003', serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Z003", serif;
 }
 
 .spacer {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .icon-container {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
