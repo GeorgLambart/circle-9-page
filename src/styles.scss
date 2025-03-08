@@ -1,26 +1,28 @@
-@use '@angular/material' as mat;
-@import '@angular/material/prebuilt-themes/cyan-orange.css';
+@use "@angular/material" as mat;
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
 
 :root {
-  --color-primary: #4527A0;
-  --color-secondary: #7E57C2;
-  --color-text-white: #FFFDE7;
-  --color-alert-red: #E53935;
+  --color-primary: #4527a0;
+  --color-secondary: #7e57c2;
+  --color-text-white: #fffde7;
+  --color-alert-red: #e53935;
   --color-bg-dark: #212121;
 }
 
 body {
   background-color: var(--color-bg-dark);
+  font-family: "Roboto", sans-serif;
 }
 
-:root{
---mat-toolbar-container-background-color: var(--color-primary);
---mat-toolbar-container-text-color: var(--color-text-white);
+:root {
+  --mat-toolbar-container-background-color: var(--color-primary);
+  --mat-toolbar-container-text-color: var(--color-text-white);
+  --mdc-filled-button-hover-state-layer-color: var(--color-primary);
 }
 
 @font-face {
-  font-family: 'Z003';
-  src: url('/assets/fonts/Z003.ttf') format('truetype');
+  font-family: "Z003";
+  src: url("/assets/fonts/Z003.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
