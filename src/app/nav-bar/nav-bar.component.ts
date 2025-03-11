@@ -25,4 +25,10 @@ export class NavBarComponent {
       });
     }
   }
+
+  goToPrivacyPolicy() {
+    window.open(
+      'https://georglambart.github.io/circle-9-page/assets/privacy.html'
+    );
+  }
 }
